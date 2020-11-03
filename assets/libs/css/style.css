@@ -3208,6 +3208,7 @@ btn-link
     -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
     -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
     box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
+    min-width: 400px;
 }
 
 .card-header {
@@ -6972,11 +6973,15 @@ Media Query
     padding: 17px 29px;}
 }
 
+html, body {
+    height: 100%;
+}
 
- 
- 
-
-
+.login-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
